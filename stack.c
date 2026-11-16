@@ -26,7 +26,7 @@ int push(stack* p_stack,int n){
 
 }
 
-int pop(stack* p_stack,int n){
+int pop(stack* p_stack){
     if((p_stack->top)==0){
         free(p_stack->array);
         p_stack->array=NULL;

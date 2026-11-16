@@ -7,10 +7,11 @@ int* array;
 int top;
 int max_size;
 
-}   stack;
+} stack;
 
-
-
+int init(stack*,int);
+int push(stack*,int);
+int pop(stack*); 
 
 
 #endif
